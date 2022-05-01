@@ -1,4 +1,4 @@
-<mxfile modified="2022-05-01T02:51:04.066Z" host="app.diagrams.net" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="zFn4jUdYd20i7gXB9wNK" version="17.5.0" type="github">
+<mxfile modified="2022-05-01T02:56:08.311Z" host="app.diagrams.net" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="-bj6YR7IYU4nqY_fYena" version="17.5.0" type="github">
   <diagram id="l8hXMBHkgcEJcSW0mbfh" name="Page-1">
     <mxGraphModel dx="1038" dy="1374" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -191,24 +191,24 @@
         <mxCell id="9ZJ48KXjJRt2zyMgK82v-85" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;endArrow=oval;endFill=1;strokeColor=#006600;" edge="1" parent="1" source="9ZJ48KXjJRt2zyMgK82v-76" target="9ZJ48KXjJRt2zyMgK82v-59">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="9ZJ48KXjJRt2zyMgK82v-76" value="- Antivirus" style="whiteSpace=wrap;html=1;labelBackgroundColor=none;labelBorderColor=none;strokeColor=#006600;strokeWidth=2;fillColor=#d5e8d4;opacity=50;align=center;" vertex="1" parent="1">
-          <mxGeometry x="330" y="890" width="160" height="90" as="geometry" />
+        <mxCell id="9ZJ48KXjJRt2zyMgK82v-76" value="-&amp;nbsp;&lt;span style=&quot;font-size: 11.0pt ; line-height: 107% ; font-family: &amp;#34;calibri&amp;#34; , sans-serif&quot;&gt;End&amp;nbsp;point detection and response tools (EDR)&amp;nbsp;&lt;/span&gt;&lt;br&gt;- Antivirus and Antimalware&lt;br&gt;-&amp;nbsp;&lt;span style=&quot;font-size: 11.0pt ; line-height: 107% ; font-family: &amp;#34;calibri&amp;#34; , sans-serif&quot;&gt;Compartmentalisation to minimise malware spread&amp;nbsp;&lt;br&gt;-&amp;nbsp;&lt;span style=&quot;font-size: 11.0pt ; line-height: 107% ; font-family: &amp;#34;calibri&amp;#34; , sans-serif&quot;&gt;Hardening&lt;br/&gt;of endpoints&amp;nbsp;&lt;/span&gt;&lt;br&gt;&lt;/span&gt;" style="whiteSpace=wrap;html=1;labelBackgroundColor=none;labelBorderColor=none;strokeColor=#006600;strokeWidth=2;fillColor=#d5e8d4;opacity=50;align=center;" vertex="1" parent="1">
+          <mxGeometry x="250" y="890" width="320" height="90" as="geometry" />
         </mxCell>
         <mxCell id="9ZJ48KXjJRt2zyMgK82v-86" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;endArrow=oval;endFill=1;strokeColor=#006600;" edge="1" parent="1" source="9ZJ48KXjJRt2zyMgK82v-77">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="804" y="850" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="9ZJ48KXjJRt2zyMgK82v-77" value="- Antivirus" style="whiteSpace=wrap;html=1;labelBackgroundColor=none;labelBorderColor=none;strokeColor=#006600;strokeWidth=2;fillColor=#d5e8d4;opacity=50;align=center;" vertex="1" parent="1">
-          <mxGeometry x="726.2" y="890" width="155.4" height="90" as="geometry" />
+        <mxCell id="9ZJ48KXjJRt2zyMgK82v-77" value="&amp;nbsp;- Security updates / Patch management&lt;br&gt;- S&lt;span style=&quot;font-size: 11pt ; line-height: 15.6933px ; font-family: &amp;#34;calibri&amp;#34; , sans-serif&quot;&gt;ecuring open and vulnerable ports / hardening&lt;br&gt;-&amp;nbsp;&lt;span style=&quot;font-size: 11pt ; line-height: 15.6933px&quot;&gt;Remove data that is no longer required&amp;nbsp;&lt;br&gt;&lt;/span&gt;-&amp;nbsp;&lt;span style=&quot;font-size: 11pt ; line-height: 15.6933px&quot;&gt;Isolate&amp;nbsp;servers with known retired software&amp;nbsp;&lt;/span&gt;&lt;/span&gt;" style="whiteSpace=wrap;html=1;labelBackgroundColor=none;labelBorderColor=none;strokeColor=#006600;strokeWidth=2;fillColor=#d5e8d4;opacity=50;align=center;" vertex="1" parent="1">
+          <mxGeometry x="648" y="890" width="311.6" height="90" as="geometry" />
         </mxCell>
         <mxCell id="9ZJ48KXjJRt2zyMgK82v-84" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;endArrow=oval;endFill=1;strokeColor=#006600;" edge="1" parent="1" source="9ZJ48KXjJRt2zyMgK82v-78">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="430" y="429" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="9ZJ48KXjJRt2zyMgK82v-78" value="- Antivirus" style="whiteSpace=wrap;html=1;labelBackgroundColor=none;labelBorderColor=none;strokeColor=#006600;strokeWidth=2;fillColor=#d5e8d4;opacity=50;align=center;" vertex="1" parent="1">
-          <mxGeometry x="230" y="384" width="155.4" height="90" as="geometry" />
+        <mxCell id="9ZJ48KXjJRt2zyMgK82v-78" value="&amp;nbsp;- Security updates / Patch management&lt;br&gt;- S&lt;span style=&quot;font-size: 11.0pt ; line-height: 107% ; font-family: &amp;#34;calibri&amp;#34; , sans-serif&quot;&gt;ecuring open and vulnerable ports / hardening&lt;br&gt;-&amp;nbsp;&lt;span style=&quot;font-size: 11.0pt ; line-height: 107% ; font-family: &amp;#34;calibri&amp;#34; , sans-serif&quot;&gt;Remove data that is no longer required&amp;nbsp;&lt;br&gt;&lt;/span&gt;-&amp;nbsp;&lt;span style=&quot;font-size: 11.0pt ; line-height: 107% ; font-family: &amp;#34;calibri&amp;#34; , sans-serif&quot;&gt;Isolate&amp;nbsp;servers with known retired software&amp;nbsp;&lt;/span&gt;&lt;br&gt;&lt;/span&gt;" style="whiteSpace=wrap;html=1;labelBackgroundColor=none;labelBorderColor=none;strokeColor=#006600;strokeWidth=2;fillColor=#d5e8d4;opacity=50;align=center;" vertex="1" parent="1">
+          <mxGeometry x="60" y="384" width="325.4" height="90" as="geometry" />
         </mxCell>
         <mxCell id="9ZJ48KXjJRt2zyMgK82v-80" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=oval;endFill=1;startArrow=none;startFill=0;strokeColor=#006600;" edge="1" parent="1" source="9ZJ48KXjJRt2zyMgK82v-79" target="9ZJ48KXjJRt2zyMgK82v-55">
           <mxGeometry relative="1" as="geometry" />
