@@ -1,11 +1,11 @@
-<mxfile modified="2022-05-08T03:48:25.123Z" host="app.diagrams.net" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="dnX0eo87ERmVom6jv9bA" version="18.0.1" type="github">
+<mxfile modified="2022-05-08T03:58:35.913Z" host="app.diagrams.net" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="6Mg6lwLx3uQ1rVS17jI9" version="18.0.1" type="github">
   <diagram id="l8hXMBHkgcEJcSW0mbfh" name="Page-1">
-    <mxGraphModel dx="494" dy="1060" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1038" dy="1316" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="9ZJ48KXjJRt2zyMgK82v-63" value="" style="whiteSpace=wrap;html=1;fillColor=none;dashed=1;strokeColor=#CCCCCC;strokeWidth=2;" parent="1" vertex="1">
-          <mxGeometry x="160" y="-180" width="810" height="360" as="geometry" />
+          <mxGeometry x="200" y="-180" width="770" height="360" as="geometry" />
         </mxCell>
         <mxCell id="yK0vSl5xD6pqp2s1u24u-33" value="" style="whiteSpace=wrap;html=1;fillColor=none;strokeColor=#CCCCCC;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="130" y="-810" width="270" height="168" as="geometry" />
@@ -140,7 +140,8 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="490" y="-140" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="254" y="-142" />
+              <mxPoint x="490" y="-142" />
+              <mxPoint x="310" y="-142" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -208,8 +209,8 @@
         <mxCell id="9ZJ48KXjJRt2zyMgK82v-58" value="&lt;span style=&quot;font-family: &amp;#34;helvetica&amp;#34; ; font-size: 12px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; background-color: rgb(248 , 249 , 250) ; display: inline ; float: none&quot;&gt;Internal Switch&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
           <mxGeometry x="714.6" y="-160" width="90" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="9ZJ48KXjJRt2zyMgK82v-59" value="Compromised User &lt;br&gt;Devices" style="text;html=1;resizable=0;autosize=1;align=left;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="395" y="100" width="120" height="30" as="geometry" />
+        <mxCell id="9ZJ48KXjJRt2zyMgK82v-59" value="Compromised &lt;br&gt;User &lt;br&gt;Devices" style="text;html=1;resizable=0;autosize=1;align=left;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="415" y="90" width="90" height="50" as="geometry" />
         </mxCell>
         <mxCell id="9ZJ48KXjJRt2zyMgK82v-60" value="IP Phones" style="text;html=1;resizable=0;autosize=1;align=left;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="588.49" y="100" width="70" height="20" as="geometry" />
@@ -221,7 +222,7 @@
           <mxGeometry x="799.6" y="130" width="160" height="30" as="geometry" />
         </mxCell>
         <mxCell id="9ZJ48KXjJRt2zyMgK82v-64" value="Intranet Zone" style="text;html=1;resizable=0;autosize=1;align=left;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;fontStyle=3" parent="1" vertex="1">
-          <mxGeometry x="175" y="-173" width="90" height="20" as="geometry" />
+          <mxGeometry x="214.6" y="-173" width="90" height="20" as="geometry" />
         </mxCell>
         <mxCell id="9ZJ48KXjJRt2zyMgK82v-66" value="DMZ" style="text;html=1;resizable=0;autosize=1;align=left;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;fontStyle=3" parent="1" vertex="1">
           <mxGeometry x="475" y="-492" width="40" height="20" as="geometry" />
@@ -240,7 +241,7 @@
             <mxPoint x="523" y="50" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="9ZJ48KXjJRt2zyMgK82v-76" value="-&amp;nbsp;&lt;span style=&quot;font-size: 11.0pt ; line-height: 107% ; font-family: &amp;quot;calibri&amp;quot; , sans-serif&quot;&gt;End&amp;nbsp;point detection and response tools (EDR)&amp;nbsp;&lt;/span&gt;&lt;br&gt;- Antivirus and Antimalware software&lt;span style=&quot;font-size: 11.0pt ; line-height: 107% ; font-family: &amp;quot;calibri&amp;quot; , sans-serif&quot;&gt;&lt;br&gt;- Use control appications to limit app installation and use&lt;br&gt;-Security updates / patch management&amp;nbsp;&lt;br&gt;&lt;/span&gt;" style="whiteSpace=wrap;html=1;labelBackgroundColor=none;labelBorderColor=none;strokeColor=#006600;strokeWidth=2;fillColor=#d5e8d4;opacity=50;align=center;" parent="1" vertex="1">
+        <mxCell id="9ZJ48KXjJRt2zyMgK82v-76" value="-&amp;nbsp;&lt;span style=&quot;font-size: 11.0pt ; line-height: 107% ; font-family: &amp;quot;calibri&amp;quot; , sans-serif&quot;&gt;End&amp;nbsp;point detection and response tools (EDR)&amp;nbsp;&lt;/span&gt;&lt;br&gt;- Antivirus and Antimalware software&lt;span style=&quot;font-size: 11.0pt ; line-height: 107% ; font-family: &amp;quot;calibri&amp;quot; , sans-serif&quot;&gt;&lt;br&gt;- Use control applications to limit app installation and use&lt;br&gt;-Security updates / patch management&amp;nbsp;&lt;br&gt;&lt;/span&gt;" style="whiteSpace=wrap;html=1;labelBackgroundColor=none;labelBorderColor=none;strokeColor=#006600;strokeWidth=2;fillColor=#d5e8d4;opacity=50;align=center;" parent="1" vertex="1">
           <mxGeometry x="347.8" y="210" width="350" height="90" as="geometry" />
         </mxCell>
         <mxCell id="9ZJ48KXjJRt2zyMgK82v-86" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;endArrow=oval;endFill=1;strokeColor=#006600;" parent="1" source="9ZJ48KXjJRt2zyMgK82v-77" edge="1">
@@ -478,28 +479,37 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="yK0vSl5xD6pqp2s1u24u-37" value="" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.switch;" vertex="1" parent="1">
-          <mxGeometry x="226.04000000000002" y="-101" width="57.93" height="16" as="geometry" />
+          <mxGeometry x="281.24" y="-101" width="57.93" height="16" as="geometry" />
         </mxCell>
-        <mxCell id="yK0vSl5xD6pqp2s1u24u-59" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="180" y="-60" width="150" height="150" as="geometry" />
+        <mxCell id="yK0vSl5xD6pqp2s1u24u-61" value="Compromised User &lt;br&gt;Devices" style="text;html=1;resizable=0;autosize=1;align=left;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="235.2" y="100" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="yK0vSl5xD6pqp2s1u24u-44" value="" style="whiteSpace=wrap;html=1;dashed=1;strokeColor=none;strokeWidth=4;fillColor=#FF0000;opacity=20;" vertex="1" parent="yK0vSl5xD6pqp2s1u24u-59">
-          <mxGeometry width="150" height="150" as="geometry" />
+        <mxCell id="yK0vSl5xD6pqp2s1u24u-64" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;fontFamily=Helvetica;fontSize=11;fontColor=default;startArrow=none;startFill=0;endArrow=oval;endFill=1;strokeColor=#006600;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="361.6700000000001" y="-142" as="targetPoint" />
+            <mxPoint x="361.6700000000001" y="-202" as="sourcePoint" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="yK0vSl5xD6pqp2s1u24u-45" value="" style="points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;image;image=img/lib/allied_telesis/computer_and_terminals/Personal_Computer.svg;fillColor=#3399FF;" vertex="1" parent="yK0vSl5xD6pqp2s1u24u-59">
-          <mxGeometry x="85" y="10" width="45.6" height="61.800000000000004" as="geometry" />
+        <mxCell id="yK0vSl5xD6pqp2s1u24u-62" value="- Subnetting to isolate incidents&lt;br&gt;-Establish Zero trust policies to ensure secure connections" style="whiteSpace=wrap;html=1;labelBackgroundColor=none;labelBorderColor=none;strokeColor=#006600;strokeWidth=2;fillColor=#d5e8d4;opacity=50;align=center;" vertex="1" parent="1">
+          <mxGeometry x="226" y="-251" width="230" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="yK0vSl5xD6pqp2s1u24u-46" value="" style="points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;image;image=img/lib/allied_telesis/computer_and_terminals/Personal_Computer.svg;fillColor=#3399FF;" vertex="1" parent="yK0vSl5xD6pqp2s1u24u-59">
-          <mxGeometry x="15" y="10" width="45.6" height="61.800000000000004" as="geometry" />
+        <mxCell id="yK0vSl5xD6pqp2s1u24u-44" value="" style="whiteSpace=wrap;html=1;dashed=1;strokeColor=none;strokeWidth=4;fillColor=#B9E0A5;opacity=20;" vertex="1" parent="1">
+          <mxGeometry x="235.2" y="-60" width="150" height="150" as="geometry" />
         </mxCell>
-        <mxCell id="yK0vSl5xD6pqp2s1u24u-47" value="" style="points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;image;image=img/lib/allied_telesis/computer_and_terminals/Personal_Computer.svg;fillColor=#3399FF;" vertex="1" parent="yK0vSl5xD6pqp2s1u24u-59">
-          <mxGeometry x="85" y="80" width="45.6" height="61.800000000000004" as="geometry" />
+        <mxCell id="yK0vSl5xD6pqp2s1u24u-45" value="" style="points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;image;image=img/lib/allied_telesis/computer_and_terminals/Personal_Computer.svg;fillColor=#3399FF;" vertex="1" parent="1">
+          <mxGeometry x="320.2" y="-50" width="45.6" height="61.800000000000004" as="geometry" />
         </mxCell>
-        <mxCell id="yK0vSl5xD6pqp2s1u24u-48" value="" style="points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;image;image=img/lib/allied_telesis/computer_and_terminals/Personal_Computer.svg;fillColor=#3399FF;" vertex="1" parent="yK0vSl5xD6pqp2s1u24u-59">
-          <mxGeometry x="15" y="80" width="45.6" height="61.800000000000004" as="geometry" />
+        <mxCell id="yK0vSl5xD6pqp2s1u24u-46" value="" style="points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;image;image=img/lib/allied_telesis/computer_and_terminals/Personal_Computer.svg;fillColor=#3399FF;" vertex="1" parent="1">
+          <mxGeometry x="250.2" y="-50" width="45.6" height="61.800000000000004" as="geometry" />
         </mxCell>
-        <mxCell id="yK0vSl5xD6pqp2s1u24u-49" value="" style="group" vertex="1" connectable="0" parent="yK0vSl5xD6pqp2s1u24u-59">
-          <mxGeometry x="4.910000000000025" y="35" width="139.29" height="10" as="geometry" />
+        <mxCell id="yK0vSl5xD6pqp2s1u24u-47" value="" style="points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;image;image=img/lib/allied_telesis/computer_and_terminals/Personal_Computer.svg;fillColor=#3399FF;" vertex="1" parent="1">
+          <mxGeometry x="320.2" y="20" width="45.6" height="61.800000000000004" as="geometry" />
+        </mxCell>
+        <mxCell id="yK0vSl5xD6pqp2s1u24u-48" value="" style="points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;image;image=img/lib/allied_telesis/computer_and_terminals/Personal_Computer.svg;fillColor=#3399FF;" vertex="1" parent="1">
+          <mxGeometry x="250.2" y="20" width="45.6" height="61.800000000000004" as="geometry" />
+        </mxCell>
+        <mxCell id="yK0vSl5xD6pqp2s1u24u-49" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="240.11" y="-25" width="139.29" height="10" as="geometry" />
         </mxCell>
         <mxCell id="yK0vSl5xD6pqp2s1u24u-50" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;strokeWidth=4;opacity=50;" edge="1" parent="yK0vSl5xD6pqp2s1u24u-49">
           <mxGeometry relative="1" as="geometry">
@@ -519,8 +529,8 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="yK0vSl5xD6pqp2s1u24u-52" value="" style="group" vertex="1" connectable="0" parent="yK0vSl5xD6pqp2s1u24u-59">
-          <mxGeometry x="4.910000000000025" y="107.8" width="139.29" height="10" as="geometry" />
+        <mxCell id="yK0vSl5xD6pqp2s1u24u-52" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="240.11" y="47.8" width="139.29" height="10" as="geometry" />
         </mxCell>
         <mxCell id="yK0vSl5xD6pqp2s1u24u-53" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;strokeWidth=4;opacity=50;" edge="1" parent="yK0vSl5xD6pqp2s1u24u-52">
           <mxGeometry relative="1" as="geometry">
@@ -539,18 +549,6 @@
               <mxPoint x="139.29" />
             </Array>
           </mxGeometry>
-        </mxCell>
-        <mxCell id="yK0vSl5xD6pqp2s1u24u-61" value="Compromised User &lt;br&gt;Devices" style="text;html=1;resizable=0;autosize=1;align=left;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="180" y="100" width="120" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="yK0vSl5xD6pqp2s1u24u-64" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;fontFamily=Helvetica;fontSize=11;fontColor=default;startArrow=none;startFill=0;endArrow=oval;endFill=1;strokeColor=#006600;" edge="1" parent="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="361.6700000000001" y="-142" as="targetPoint" />
-            <mxPoint x="361.6700000000001" y="-202" as="sourcePoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="yK0vSl5xD6pqp2s1u24u-62" value="- Subnetting to isolate incidents&lt;br&gt;-Establish Zero trust policies to ensure secure connections" style="whiteSpace=wrap;html=1;labelBackgroundColor=none;labelBorderColor=none;strokeColor=#006600;strokeWidth=2;fillColor=#d5e8d4;opacity=50;align=center;" vertex="1" parent="1">
-          <mxGeometry x="226" y="-250" width="230" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
