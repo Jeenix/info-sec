@@ -15,6 +15,18 @@
 `bunzip2 backup.bz2` extract bzip `.bz2` file type  </br>
 `cpio -idv --no-absolute-filename < [filename]` cpio archive extract </br> 
 
+### MySQL 
+`mysql -u root` access mysql
+`mysql -u root -p` access mysql with password
+
+#### Queries 
+`show databases;` show available databases</br>
+`use [DATABASE];` </br>
+`show tables;` </br>
+`select * from [TABLE];` Select * from table </br>
+
+ the `show` and `use` command will not work in SQL injections, they are internal command that are not part of SQL </br>
+
 ### Encoding / Decoding 
 `openssl enc -aes256 -k [KEY] -in /tmp/backup.tgz  -out /tmp/backup.tgz.enc` encode with passcode </br>
 `openssl enc -d -aes256 -k [KEY] -in /tmp/backup.tgz.enc -out /tmp/backup.tgz` decode, (remember need to decompress tgz file!) </br> 
@@ -26,6 +38,7 @@ This is common on very old systems and it's very weak (especially since only the
 
 ```victim:$1$x83NbBxt$E7AQumyC9qhT3TaIUe1Bx1:19520:0:99999:7:::```</br>
 This time MD5 is used. It can be detected by the prefix of the password: `$1$`. </br>
+Use `john [FILE] --format=md5crypt`
 
 If you look at other files, you can tell that: </br>
 
