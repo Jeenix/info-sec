@@ -3,11 +3,13 @@
 `cd` change directory </br>
 `cd ..` change directory, go back up tree  </br>
 `pwd` print working directory  </br>
-`grep` search  </br>
+`find / -name Foo.txt` When you know the name of a file but can't remember where you saved it, use find to search your home directory  </br>
+Use `2>/dev/null` to silence permission errors (or use sudo to gain all permissions). </br>
+`grep` search for matching patterns in a file  </br>
  `ls` list  </br>
 `ls -la` list all  </br>
 `cat` #concatenate command, reads data from the file and gives output  </br>
-`su [username]` login as user </br>
+`su [username]` switch user </br>
 
 ### Extract files
 `tar -zxvf filename` extract file to currect directory  </br>
