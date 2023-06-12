@@ -3,6 +3,7 @@
 `cd` change directory </br>
 `cd ..` change directory, go back up tree  </br>
 `pwd` print working directory  </br>
+`find` When you don't know the name of a file </br>
 `find / -name Foo.txt` When you know the name of a file but can't remember where you saved it, use find to search your home directory  </br>
 Use `2>/dev/null` to silence permission errors (or use sudo to gain all permissions). </br>
 `grep` search for matching patterns in a file  </br>
@@ -10,6 +11,9 @@ Use `2>/dev/null` to silence permission errors (or use sudo to gain all permissi
 `ls -la` list all  </br>
 `cat` #concatenate command, reads data from the file and gives output  </br>
 `su [username]` switch user </br>
+run `strings`  on the file to see the text inside a binary or data file </br>
+`ps` Process Status, used to view information about active processes on the system.
+`ps -edf` Process Status,  to display information about all processes, including those that belong to other users, include the processes that are running as daemons (background processes) and display a full format listing. 
 
 ### Extract files
 `tar -zxvf filename` extract file to currect directory  </br>
@@ -26,8 +30,13 @@ Use `2>/dev/null` to silence permission errors (or use sudo to gain all permissi
 `use [DATABASE];` </br>
 `show tables;` </br>
 `select * from [TABLE];` Select * from table </br>
+`select load_file('[FILENAME]');` read the content of the file using the load_file(...) MySQL function. Newer versions are locked down/ more restricted. </br>
 
  the `show` and `use` command will not work in SQL injections, they are internal command that are not part of SQL </br>
+ 
+ #### When logged in as mysql 
+ when logged in system user `mysql`, then it is possible to access the data through the backend instead of through the database
+ 
 
 ### Encoding / Decoding 
 `openssl enc -aes256 -k [KEY] -in /tmp/backup.tgz  -out /tmp/backup.tgz.enc` encode with passcode </br>
